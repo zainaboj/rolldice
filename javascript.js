@@ -17,12 +17,10 @@ else {
     if(randomNumber2 > randomNumber1)
         {playAudio();
         document.getElementById("text").innerHTML = ("The winner player2  ");
-
         }
     else{
       //document.querySelector("#text").innerHTML = "Hello World!";
      document.getElementById("text").innerHTML = ("Play Again  ");
-
         }
 }
 }
